@@ -1,11 +1,10 @@
 <script setup>
-import { ref } from 'vue'
+  import { ref } from 'vue'
 
-const num = ref(1)   
-function clickMe() {
-  num.value++
-}
-
+  const num = ref(1)   
+  function clickMe() {
+    num.value++
+  }
 </script>
 
 <template>
@@ -14,4 +13,3 @@ function clickMe() {
     <button type="button" v-on:click="clickMe">click</button>
   </div>
 </template>
-
